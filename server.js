@@ -17,18 +17,18 @@ var articles = {
         
     },
     'article-two': {
-        title: 'Article 1 Himanshu',
-        heading: 'article-one',
-        date: 'August 17 2017',
+        title: 'Article 2 Himanshu',
+        heading: 'article-two',
+        date: 'August 18 2017',
         content: ` <p>
-                        This is content for my first article.. Hala Madrid . Real Madrid won the spanish super cup.
+                        This is content for my second article.. Hala Madrid . Real Madrid won the spanish super cup.
                         </p> `},
     'article-three': {
-        title: 'Article 1 Himanshu',
-        heading: 'article-one',
-        date: 'August 17 2017',
+        title: 'Article 3 Himanshu',
+        heading: 'article-three',
+        date: 'August 19 2017',
         content: ` <p>
-                        This is content for my first article.. Hala Madrid . Real Madrid won the spanish super cup.
+                        This is content for my third article.. Hala Madrid . Real Madrid won the spanish super cup.
                         </p> `}
 };
 
