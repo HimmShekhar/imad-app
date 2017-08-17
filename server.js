@@ -6,22 +6,30 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articleOne={
-    title: 'Article 1 Himanshu',
-    heading: 'article-one',
-    date: 'August 17 2017',
-    content: ` <p>
-                    This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.
-                    
-                </p>
-                <p>
-                    This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.
-                    
-                </p>
-                <p>
-                    This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.
-                    </p> `
-    
+var articles = {
+    'article-one': {
+        title: 'Article 1 Himanshu',
+        heading: 'article-one',
+        date: 'August 17 2017',
+        content: ` <p>
+                        This is content for my first article.. Hala Madrid . Real Madrid won the spanish super cup.
+                        </p> `
+        
+    },
+    'article-two': {
+        title: 'Article 1 Himanshu',
+        heading: 'article-one',
+        date: 'August 17 2017',
+        content: ` <p>
+                        This is content for my first article.. Hala Madrid . Real Madrid won the spanish super cup.
+                        </p> `},
+    'article-three': {
+        title: 'Article 1 Himanshu',
+        heading: 'article-one',
+        date: 'August 17 2017',
+        content: ` <p>
+                        This is content for my first article.. Hala Madrid . Real Madrid won the spanish super cup.
+                        </p> `}
 };
 
 function createTemplate (data) {
