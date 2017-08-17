@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 
 var articleOne={
     title: 'Article 1 Himanshu',
-    heading: 'artile-one',
+    heading: 'article-one',
     date: 'August 17 2017',
     content: ` <p>
                     This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.This is content for my first web app.. Hala Madrid . Real Madrid won the spanish super cup.
