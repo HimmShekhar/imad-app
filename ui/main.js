@@ -4,7 +4,7 @@ element.innerHTML="Real Madrid halamadrid";
 
 //Move the image
 var img=document.getElementById("madi");
-madi.onclick= function(){
+img.onclick= function(){
     
     img.style.marginleft="125px";
 };
