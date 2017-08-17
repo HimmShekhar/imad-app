@@ -6,7 +6,7 @@ element.innerHTML="Real Madrid halamadrid";
 var img=document.getElementById("madi");
 img.onclick= function(){
     
-    img.style.marginleft="125px";
-};
+    img.style.marginLeft="125px";
+}; 
 
 
